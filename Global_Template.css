@@ -1,4 +1,5 @@
-  <!-- DC Social Icons CSS -->
+
+<!-- DC Social Icons CSS -->
 	<link rel="stylesheet" type="text/css" href="http://www.dreamtemplate.com/dreamcodes/social_icons/tsc_social_icons.css" />
 
 
@@ -27,8 +28,7 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     
     <link rel="stylesheet" type="text/css" href="jsfiddle.css">
-	
-<style>
+
 	
 body  {
     background-color: #bfbfbf;
@@ -88,6 +88,4 @@ height: 50px;
 	
 button:focus {outline:0;}
 	
-</style>
-</head>
 
