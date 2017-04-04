@@ -18,6 +18,20 @@ h2 {
  	margin-left: auto;
     margin-right: auto;
 }
+h3 {
+    text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+    border: 1px ;
+  	text-align:left; 
+	margin: 1px;
+    padding: 1px;
+	width: 75%; 
+	height: 25%;
+    overflow: auto;
+ 	margin-left: auto;
+    margin-right: auto;
+}
 p.intro {
 
     border: 1px ;
