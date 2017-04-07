@@ -106,4 +106,6 @@ height: 50px;
 	
 button:focus {outline:0;}
 	
-
+.center {
+    padding: 5% 0;
+}
