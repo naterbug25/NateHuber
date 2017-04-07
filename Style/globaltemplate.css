@@ -62,7 +62,7 @@ p.AboutMe {
 }
 div.container {
     width: 100%;	
-    border: 1px solid gray;
+    border: 0px;
 }
 
 div.centerimage {
@@ -83,7 +83,6 @@ div.Project{
 }
 
 header, footer {
-    padding: 1px;
     color: white;
     background-color: #2F2E2E;
     clear: left;
