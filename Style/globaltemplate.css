@@ -1,13 +1,4 @@
-html {
-  height: 100%;
-  box-sizing: border-box;
-}
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
 body  {
     background-color: #bfbfbf;
     overflow-x: hidden; 
@@ -112,20 +103,7 @@ footer {
     left: 0;
     width:100%;
 }
-
-#container {
-   min-height:100%;
-   position:relative;
-}
-#header {
-    color: white;
-    background-color: #2F2E2E;
-    clear: left;
-    text-align: center;
-}
-#body {
-}
-#footer {
+.footer {
     color: white;
     background-color: #2F2E2E;
     clear: left;
@@ -136,7 +114,6 @@ footer {
     left: 0;
     width:100%;
 }
-
 a:link {
     text-decoration: none;
 }
