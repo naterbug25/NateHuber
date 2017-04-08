@@ -1,5 +1,7 @@
 body  {
     background-color: #bfbfbf;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 h1 {
