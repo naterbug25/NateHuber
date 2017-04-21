@@ -85,11 +85,23 @@ div.Project{
     margin-right: 15%;
 }
 
-header, footer {
+header {
     color: white;
     background-color: #2F2E2E;
     clear: left;
     text-align: center;
+}
+#footer
+{
+    color: white;
+    background-color: #2F2E2E;
+    clear: left;
+    text-align: center;
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
 }
 
 a:link {
