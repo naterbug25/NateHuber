@@ -31,10 +31,11 @@
   if (screen.width <= 800) {
      
     $(document).ready(function(){
-    
-        $("h1,p").addClass("introMobile");
-        $("h1,p").removeClass("intro");
-                                 });
+        $("h1").addClass("HeaderMobile");
+        $("p").addClass("introMobile");
+        $("Img").addClass("HomeImgMobile");
+        $("p").removeClass("intro");
+        $("Img").removeClass("HomeImg");
   }
   //-->
 </script>
@@ -78,7 +79,7 @@
          <div id="container">
             <div>
                <br>
-               <img src="https://naterbug25.github.io/NateHuber/Images/Nathan_Huber.jpg" alt="Nathan Huber"  style="width:15%;height:15%;">	
+               <img class="HomeImg" src="https://naterbug25.github.io/NateHuber/Images/Nathan_Huber.jpg" alt="Nathan Huber" >	
                <a href="https://www.linkedin.com/in/hubernathan" target="_blank" style=color:black >
                   <h1>Nathan Huber</h1>
                </a>
