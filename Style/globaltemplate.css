@@ -139,7 +139,7 @@ img.CoopImg
   margin-left: auto;
   margin-right: auto;
   width:25%;
-  height:25%;"
+  height:25%;
 }
 img.CoopImgMobile
 {
@@ -147,7 +147,8 @@ img.CoopImgMobile
   padding: 1px;	
   margin-left: auto;
   margin-right: auto;
-  height:50%;"
+  width:50%;
+  height:50%;
 }
 div.container {
 width: 100%;	
