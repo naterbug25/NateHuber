@@ -13,6 +13,16 @@ padding: 1px;
 margin-left: auto;
 margin-right: auto;	
 }
+h1.HeaderMobile {
+font-size: 2.4vh;
+text-align: left;
+font-weight: bold;	
+border: 1px ;
+margin: 1px;
+padding: 1px;	
+margin-left: auto;
+margin-right: auto;	
+}
 h2 {
 text-align: middle;
 font-size: 2.4vh;
@@ -57,7 +67,7 @@ margin-left: auto;
 margin-right: auto;
 }
 p.introMobile {
-font-size: 1.8vh;
+font-size: 2vh;
 border: 1px ;
 text-align:left; 
 margin: 1px;
@@ -91,6 +101,17 @@ height: 25%;
 overflow: auto;
 margin-left: auto;
 margin-right: auto;
+}
+img.HomeImg
+{
+  width:15%;
+  height:15%;"
+}
+img.HomeImgMobile
+{
+  float:left;
+  width:25%;
+  height:25%;"
 }
 div.container {
 width: 100%;	
