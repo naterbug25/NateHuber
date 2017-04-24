@@ -24,13 +24,21 @@
 <script>
 <meta name="msvalidate.01" content="599B9D1AC3BDA66360867045D4CFF3AB" />
 </script>
+         
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>    
 <script type="text/javascript">
   <!--
   if (screen.width <= 800) {
-    window.location = "http://naterbug25.github.io/NateHuber/Nathan Huber Home Mobile.html";
+     
+    $(document).ready(function(){
+    
+        $("h1,p").addClass("introMobile");
+        $("h1,p").removeClass("intro");
+                                 });
   }
   //-->
 </script>
+         
          <!-- Latest compiled and minified CSS -->
          <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
          <!-- jQuery library -->
