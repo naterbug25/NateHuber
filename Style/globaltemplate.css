@@ -152,7 +152,7 @@ img.CoopImgMobile
 }
 img.MobileMenu
 {
-  height:20%;
+  height:50%;
   z-index: 2;
   position:absolute;
   left: 80%;
