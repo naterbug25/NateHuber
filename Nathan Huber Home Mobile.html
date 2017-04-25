@@ -40,7 +40,25 @@
                            }
   //-->
 </script>
-         
+
+<script>
+function DropDownMenu() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
          <!-- Latest compiled and minified CSS -->
          <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
          <!-- jQuery library -->
@@ -63,7 +81,9 @@
             -->
          <div class="HeaderContainer" >
             <img src="/Images/Header2.PNG" alt="Header Image" align="middle" style="width: 100%; max-width: 100%; z-index: 1;" >
+            <a onclick="DropDownMenu()" class="dropbtn">
             <img class="MobileMenu" src="/Images/Menu_Drop_Down_Button.jpg" alt="Error Image Not Found" tabindex="1">
+            </a>
          </div>
          <!-- Header Buttons-->
          <div >
