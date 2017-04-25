@@ -158,6 +158,7 @@ img.MobileMenu
   left: 80%;
   top: 50%;
   transform: translateY(-50%);
+  display: none;
 }
 div.HeaderContainer{
 position: relative;
