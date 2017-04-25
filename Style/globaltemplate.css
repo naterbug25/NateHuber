@@ -233,7 +233,9 @@ button:focus {outline:0;}
 .center {
 padding: 5% 0;
 }
-
+.dropdown{
+  position: static;
+}
 .dropdown-content {
     display: none;
     position: absolute;
