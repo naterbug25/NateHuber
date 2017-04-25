@@ -150,7 +150,7 @@ img.CoopImgMobile
   width:25%;
   height:25%;
 }
-img.MobileMenuImg
+img.MobileMenuMobile
 {
   height:75%;
   z-index: 2;
@@ -158,6 +158,9 @@ img.MobileMenuImg
   left: 80%;
   top: 50%;
   transform: translateY(-50%);
+}
+img.MobileMenu
+{
   display: none;
 }
 div.HeaderContainer{
