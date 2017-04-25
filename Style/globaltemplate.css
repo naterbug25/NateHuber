@@ -152,11 +152,11 @@ img.CoopImgMobile
 }
 img.MobileMenu
 {
-  width:15%;
-  height:15%;
+  width:10%;
+  height:10%;
   z-index: 2;
   position:absolute;
-  top: 5%; left: 80%;
+  top: 3%; left: 80%;
 }
 div.container {
 width: 100%;	
