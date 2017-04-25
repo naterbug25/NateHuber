@@ -158,18 +158,15 @@ img.MobileMenuMobile
   left: 80%;
   top: 50%;
   transform: translateY(-50%);
-  -webkit-transition-duration: .5s;
-  -moz-transition-duration: .5s;
-  -o-transition-duration: .5s;
-   transition-duration: .5s;
+  -webkit-transition-duration: .3s;
+  -moz-transition-duration: .3s;
+  -o-transition-duration: .3s;
+   transition-duration: .3s;
   -webkit-transition-property: -webkit-transform;
   -moz-transition-property: -moz-transform;
   -o-transition-property: -o-transform;
   transition-property: transform;
-  -webkit-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
-   transform-origin: 50% 50%;
+
 }
 img.MobileMenuMobile:focus {
 -webkit-transform: rotate(-90deg);
