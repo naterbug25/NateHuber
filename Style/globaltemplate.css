@@ -150,6 +150,14 @@ img.CoopImgMobile
   width:25%;
   height:25%;
 }
+img.MobileMenu
+{
+  width:25%;
+  height:25%;
+  z-index: 2;
+  position:absolute;
+  top: 5%; left: 95%;
+}
 div.container {
 width: 100%;	
 border: 0px;
