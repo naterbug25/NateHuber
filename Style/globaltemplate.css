@@ -155,7 +155,11 @@ img.MobileMenu
   height:10%;
   z-index: 2;
   position:absolute;
-  top: 2%; left: 80%;
+  
+}
+div.HeaderContainer{
+position: relative;
+vertical-align: middle;
 }
 div.container {
 width: 100%;	
