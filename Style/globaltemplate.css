@@ -156,8 +156,7 @@ img.MobileMenuMobile
   z-index: 2;
   position:absolute;
   left: 80%;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 10%;
   -webkit-transition-duration: .3s;
   -moz-transition-duration: .3s;
   -o-transition-duration: .3s;
@@ -166,7 +165,7 @@ img.MobileMenuMobile
   -moz-transition-property: -moz-transform;
   -o-transition-property: -o-transform;
   transition-property: transform;
-display:block;
+  display:block;
 }
 img.MobileMenuMobile:focus {
 -webkit-transform: rotate(-90deg);
