@@ -164,7 +164,7 @@ img.MobileMenu
   display: none;
 }
 div.HeaderContainer{
-position: relative;
+position:relative;
 vertical-align: middle;
 }
 div.container {
