@@ -172,7 +172,7 @@ img.MobileMenuMobileRotate {
 -ms-transform: rotate(-90deg);
  transform: rotate(-90deg);
 }
-img.MobileMenu
+.MobileMenu
 {
   display: none;
 }
