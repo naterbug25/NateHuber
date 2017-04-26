@@ -33,14 +33,13 @@
         $(".intro").addClass("introMobile");           // Adjust words
         $(".HomeImg").addClass("HomeImgMobile");      //Display Home Image Icon
         $(".MobileMenu").addClass("MobileMenuMobile");   // Mobile Menu
-        //$(".HeaderButtons").addClass("MobileHeader");          //Remove Header Buttons
+        $("HeaderButtons").addClass("MobileHeader");          //Remove Header Buttons
         $("MobileBanner").addClass("MobileHeaderDisplay");// Display header banner
         $("p").removeClass("intro");                        // Adjust words
         $(".HomeImg").removeClass("HomeImg"); 
         $(".MobileMenu").removeClass("MobileMenu");  
         $(".MobileBanner").removeClass("MobileBanner");  
     });
-     document.getElementById('HeaderButtons').style.display = "none";
 
 
                            }
@@ -109,8 +108,8 @@ window.onclick = function(event) {
          </div>
          <!-- Header Buttons-->
          <div>
-            <header >
-               <div class="MobileBanner">
+            <header>
+               <div class="MobileHeader">
                </div>
                <div id="HeaderButtons" >
                <a href="http://naterbug25.github.io/NateHuber/Nathan Huber Home" target="" </a><button class="launch" style="color:#ffd966;">Home</button></a>
