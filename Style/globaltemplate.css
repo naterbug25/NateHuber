@@ -207,10 +207,7 @@ clear: left;
 text-align: center;
 }
 .Mobile{
-min-height: 2%;
-color: white;
-background-color: #2F2E2E;
-clear: left;
+ display: none;
 }
 
 #footer
