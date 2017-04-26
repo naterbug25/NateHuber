@@ -41,7 +41,8 @@
         $(".intro").addClass("introMobile");           // Adjust words
         $(".HomeImg").addClass("HomeImgMobile");      //Display Home Image Icon
         $(".MobileMenu").addClass("MobileMenuMobile");   // Mobile Menu
-        $("HeaderButtons").addClass("RemoveButtons");          //Remove Header Buttons
+        //$("HeaderButtons").addClass("RemoveButtons");          //Remove Header Buttons
+        $document.getElementById('HeaderButtons').className += 'RemoveButtons';
        // $(".MobileBanner").addClass("MobileHeaderDisplay");// Display header banner
         $("p").removeClass("intro");                        // Adjust words
         $(".HomeImg").removeClass("HomeImg"); 
