@@ -172,7 +172,7 @@ img.MobileMenuMobileRotate {
 -ms-transform: rotate(-90deg);
  transform: rotate(-90deg);
 }
-.MobileMenu
+img.MobileMenu
 {
   display: none;
 }
@@ -206,6 +206,14 @@ background-color: #2F2E2E;
 clear: left;
 text-align: center;
 }
+header.Mobile{
+min-height: 2%;
+color: white;
+background-color: #2F2E2E;
+clear: left;
+ display: none;
+}
+
 #footer
 {
 font-size: 1.6vh;
