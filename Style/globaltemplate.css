@@ -206,6 +206,13 @@ background-color: #2F2E2E;
 clear: left;
 text-align: center;
 }
+MobileHeaderDisplay {
+min-height: 2%;
+color: white;
+background-color: #2F2E2E;
+clear: left;
+}
+
 .Mobile{
  display: none;
 }
