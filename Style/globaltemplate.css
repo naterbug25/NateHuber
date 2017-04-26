@@ -199,13 +199,14 @@ padding: 10px;
 margin-left: 15%;
 margin-right: 15%;
 }
-.HeaderButtons {
+Header{
 min-height: 3vh;
 color: white;
 background-color: #2F2E2E;
 clear: left;
 text-align: center;
 }
+
 .MobileHeaderDisplay {
 min-height: 3vh;
 color: white;
