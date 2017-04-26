@@ -167,7 +167,7 @@ img.MobileMenuMobile
   transition-property: transform;
   display:block;
 }
-img.MobileMenuMobile:focus {
+img.MobileMenuMobileRotate {
 -webkit-transform: rotate(-90deg);
 -ms-transform: rotate(-90deg);
  transform: rotate(-90deg);
