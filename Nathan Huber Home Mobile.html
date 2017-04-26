@@ -27,18 +27,18 @@
          
 <script type="text/javascript">
   <!--
-  if (screen.width <= 800) {
+  if (screen.width <= 800) {              // Mobile Device
     $(document).ready(function(){
-        $("h1").addClass("HeaderMobile");
-        $(".intro").addClass("introMobile");
-        $(".HomeImg").addClass("HomeImgMobile");
-        $(".MobileMenu").addClass("MobileMenuMobile");
-        $(".HeaderButtons").addClass("Mobile");
-        $(".MobileHeader").addClass("MobileHeaderDisplay");
-        $("p").removeClass("intro");
+        $("h1").addClass("HeaderMobile");             //Resize Titles
+        $(".intro").addClass("introMobile");           // Adjust words
+        $(".HomeImg").addClass("HomeImgMobile");      //Display Home Image Icon
+        $(".MobileMenu").addClass("MobileMenuMobile");   // Mobile Menu
+        $(".HeaderButtons").addClass("Mobile");          //Remove Header Buttons
+        $(".MobileHeader").addClass("MobileHeaderDisplay");// Display header banner
+        $("p").removeClass("intro");                        // Adjust words
         $(".HomeImg").removeClass("HomeImg"); 
         $(".MobileMenu").removeClass("MobileMenu");  
-        
+        $(".MobileHeaderDisplay").removeClass("MobileHeader");  
     });
                            }
   //-->
