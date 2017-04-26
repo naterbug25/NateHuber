@@ -58,6 +58,8 @@ window.onclick = function(event) {
       var openDropdown = dropdowns[i];
       if (openDropdown.classList.contains('show')) {
         openDropdown.classList.remove('show');
+      var x = document.getElementById('MobileIcon');
+      x.classList.toggle("MobileMenuMobileRotate");
       }
     }
   }
