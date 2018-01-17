@@ -300,11 +300,12 @@ img.MobileMenu
   transition-property: transform;
 display: inline-block;
 	margin-top: 3vh;
-	margin-right:3vh;	
+	margin-right: 3vh;	
 float: right;
 }
 
-img.MobileMenuMobileRotate {
+img.
+	MobileRotate {
 -webkit-transform: rotate(-90deg);
 -ms-transform: rotate(-90deg);
  transform: rotate(-90deg);
